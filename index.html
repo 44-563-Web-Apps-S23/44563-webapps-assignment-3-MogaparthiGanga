@@ -60,5 +60,17 @@
             <td> 35 </td>
         </tr>
     </table>
+    <hr>
+    <h3> Code Display </h3>
+    <blockquote cite = "https://stackoverflow.com/questions/44449946/javascript-keycodes-are-not-working-in-firefox">
+        I am using JavaScript keycodes, they are not working in Firefox but working in Chrome and IE. 
+        I have debugged the code in front end for Firefox I am getting keycode as 0.
+        <a href="https://stackoverflow.com/questions/44449946/javascript-keycodes-are-not-working-in-firefox">LinktoStackOverflow</a>
+    </blockquote>
+    <pre>
+        document.addEventListener("keydown", function(event) {
+            console.log(event.which);
+          })
+    </pre>
     
 </html>
